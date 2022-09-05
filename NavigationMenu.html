@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <style>
+        .navbar {
+            background-color: #001f3f;
+            border-radius: 7px;
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            /* color: azure; */
+            margin: 10px 10px;
+            /* margin: 13px 20px; */
+            padding-top: 5px;
+
+
+        }
+
+        .navbar li a {
+            padding: 3px 3px;
+            text-decoration: none;
+            color: azure;
+            font-family: 'Libre Baskerville', serif;
+            /* margin: 3px 3px;
+            text-align: center; */
+
+        }
+
+        .navbar li a:hover {
+            /* background-color: bisque; */
+            color: #ff1e00;
+
+        }
+
+        .search {
+            float: right;
+            color: azure;
+            padding: 12px 75px;
+
+        }
+
+        .navbar input {
+            border: 2px solid black;
+            border-radius: 7px;
+            padding: 3px 17px;
+            /* text-align: center; */
+            width: 116px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="https://www.google.com/">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="Search this website">
+                </div>
+            </ul>
+
+        </nav>
+    </header>
+</body>
+
+</html>
